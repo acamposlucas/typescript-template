@@ -1,0 +1,24 @@
+{
+  "name": "gof-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start:dev": "tsx watch src/index.ts",
+    "build": "tsup src",
+    "test": "vitest",
+    "prettier": "npx prettier . --write",
+    "prettier:path": "npx prettier --write "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.1.1",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.1"
+  }
+}
